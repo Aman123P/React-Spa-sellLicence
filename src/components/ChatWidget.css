@@ -1,4 +1,4 @@
-/* Chat Toggle Button */
+
 .chat-toggle {
   position: fixed;
   bottom: 30px;
@@ -15,7 +15,7 @@
   z-index: 1000;
 }
 
-/* Chat Container */
+
 .chat-container {
   position: fixed;
   bottom: 100px;
@@ -48,7 +48,7 @@
   cursor: pointer;
 }
 
-/* Messages Area */
+
 .messages {
   padding: 15px;
   flex-grow: 1;
@@ -74,7 +74,7 @@
   align-self: flex-end;
 }
 
-/* Input Area */
+
 .input-area {
   display: flex;
   padding: 10px;

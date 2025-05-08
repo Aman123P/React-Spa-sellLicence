@@ -11,7 +11,7 @@ export default function ChatWidget() {
   const handleSend = () => {
     if (newMessage.trim()) {
       setMessages([...messages, { text: newMessage, sender: 'user' }]);
-      // Auto-reply after 1 second
+     //1 sec bad reply krega
       setTimeout(() => {
         setMessages((prev) => [
           ...prev,
@@ -27,12 +27,12 @@ export default function ChatWidget() {
 
   return (
     <div className={`chat-widget ${isOpen ? 'open' : ''}`}>
-      {/* Chat Toggle Button */}
+      
       <button className="chat-toggle" onClick={() => setIsOpen(!isOpen)}>
         💬
       </button>
 
-      {/* Chat Box */}
+     
       {isOpen && (
         <div className="chat-container">
           <div className="chat-header">

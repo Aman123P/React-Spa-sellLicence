@@ -1,9 +1,8 @@
-import './Hero.css'; // CSS file import
+import './Hero.css'; 
 
-// Top of file
+
 import { motion } from "framer-motion";
 
-// Existing code ko replace karo inke saath
 export default function Hero() {
   return (
     <section className="hero-section">

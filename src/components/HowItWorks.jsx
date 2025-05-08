@@ -5,7 +5,7 @@ export default function HowItWorks() {
   const steps = [
     {
       id: 1,
-      icon: '📤', // Emoji as icon (bad me hum SVG ya FontAwesome use kar sakte hain)
+      icon: '📤', 
       title: 'Upload License',
       description: 'Share your license details securely',
     },
